@@ -18,7 +18,8 @@ public class App {
         output("Diff. r-t :" + areaDiff(rectangle, triangle));
         output("Diff. r-c :" + areaDiff(rectangle, circle));
         
- 
+        // Das geht jetzt niht mehr... Abstraktion
+        // Shape shape = new Shape();
        
     }
 
@@ -30,7 +31,7 @@ public class App {
     //     return r.area() - c.area();
     // }
 
-    
+
     //  2. Iteration: Polymorphie - besser!
     private static double areaDiff(Shape s1, Shape s2){
         return s1.area() - s2.area();
